@@ -73,7 +73,7 @@ int main()
                                                 //add pixels of valid images
                                                 addPixels(bmp, bmpCurrent);
                                                 //print occasional progress updates
-                                                cout<<"Image"<<i<<"of"<<max<<"are done."<<endl;
+                                                cout<<"Image "<<i<<" of "<<max<<" are done."<<endl;
                                         }
                                         else //didn't match then invalid
                                                 invalid=true;
@@ -119,9 +119,9 @@ else
         cout<<"succesfully created created a composite image: compositeimage.bmp"<<endl;
 }
         return 0;
+}
 
 // functions begin
-}
 //get the maximum number of files, must be between 2 and 10
 void inputMax(int& max)
 {
